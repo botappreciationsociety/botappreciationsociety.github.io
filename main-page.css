@@ -1,0 +1,14 @@
+body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.price {
+ position: absolute;
+ top: 0;
+ right: 0;
+ display: block:
+}
