@@ -12,3 +12,7 @@ body {
  right: 0;
  display: block:
 }
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
