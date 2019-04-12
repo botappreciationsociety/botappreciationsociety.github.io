@@ -103,5 +103,44 @@ https://www.facebook.com/271204917088261/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/53399770_353262112065201_4193105669764677632_n.png?_nc_cat=102&_nc_ht=scontent.fbne3-1.fna&oh=54e325590246f717f38d7b71fea62996&oe=5D456F93
 Video
 ;
-
-
+DictionaryPostbot
+https://www.facebook.com/271204917088261/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/41479920_605363403195312_4886307090622054400_n.png?_nc_cat=106&_nc_ht=scontent.fbne3-1.fna&oh=4c7eb26c84859d9f0aab8480cd1fc06e&oe=5D3EA2B3
+Image
+;
+Dungeon Post Bot 1974
+https://www.facebook.com/271204917088261/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/55916093_2285205518196079_4277129437826252800_n.jpg?_nc_cat=105&_nc_ht=scontent.fbne3-1.fna&oh=0b71e17876b7d72b8307516e484f66fe&oe=5D2CBB51
+Text
+;
+ElementBot 9654
+https://www.facebook.com/271204917088261/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/46973038_2160358300895627_8059151894926327808_o.png?_nc_cat=102&_nc_ht=scontent.fbne3-1.fna&oh=a5784fb996cf0e80c71c78ecd4d6f0cd&oe=5D4CE3BA
+Text
+;
+EmojiBot 101
+https://www.facebook.com/271204917088261/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/42256241_301556410626070_4129633431883612160_n.png?_nc_cat=107&_nc_ht=scontent.fbne3-1.fna&oh=21b0e96dc84a58c91f30b2678abd2e1c&oe=5D2E67AA
+Text
+;
+FaceswapBot 6656
+https://www.facebook.com/271204917088261/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/50880568_389038834976196_3742643847583236096_o.jpg?_nc_cat=101&_nc_ht=scontent.fbne3-1.fna&oh=93947fb463f1b92b88c70f5fa519c907&oe=5D3EADAF
+Image
+;
+FactpostBot4286
+https://www.facebook.com/FactpostMarkov/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/49209823_1873137689480360_6644527097987465216_n.png?_nc_cat=105&_nc_ht=scontent.fbne3-1.fna&oh=cc74352972550352ba235babebcfe5be&oe=5D37D25C
+Text,Image
+;
+Feijoada Simulator v2.0.0
+https://www.facebook.com/258433244715394/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/49349033_367834380441946_6353795345767464960_n.png?_nc_cat=101&_nc_ht=scontent.fbne3-1.fna&oh=be505332ca447b07ea67b197dbef396c&oe=5D2EA097
+Image
+;
+FibonacciBot1618
+https://www.facebook.com/fibonaccibot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56954400_657530461369024_2216321086012784640_n.jpg?_nc_cat=110&_nc_ht=scontent.fbne3-1.fna&oh=e95d1f85824ba26aff1a6fcee4e2580f&oe=5D01A950
+Text
+https://github.com/guidanoli/fibonaccibot
+;
