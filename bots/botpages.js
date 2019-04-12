@@ -38,13 +38,16 @@ $(document).ready(function(){
                     if (tag=="Interactive") {
                         badge = '<span class="badge badge-info" style="margin: 0.062rem;">Interactive</span>'
                         botcardlist.splice(11, 0, badge);
+                    } else if (tag=="Video") {
+                        badge = '<span class="badge badge-warning" style="margin: 0.062rem;">Video</span>'
+                        botcardlist.splice(11, 0, badge);
                     } else if (tag=="Image") {
                         badge = '<span class="badge badge-success" style="margin: 0.062rem;">Image</span>'
                         botcardlist.splice(11, 0, badge);
                     } else if (tag=="Text") {
                         badge = '<span class="badge badge-dark" style="margin: 0.062rem;">Text</span>'
                         botcardlist.splice(11, 0, badge);
-                    }else if (tag=="Dead") {
+                    } else if (tag=="Dead") {
                         badge = '<span class="badge badge-danger" style="margin: 0.062rem;">Dead</span>'
                         botcardlist.splice(11, 0, badge);
                     };
