@@ -144,3 +144,33 @@ https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56954400_657530461369024_2216321
 Text
 https://github.com/guidanoli/fibonaccibot
 ;
+Floor-Plan-Bot2521
+https://www.facebook.com/floorplanbot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56398404_285966532297655_1275342284589629440_n.jpg?_nc_cat=100&_nc_ht=scontent.fbne3-1.fna&oh=78ee09dec529cc526d4b0afa2c99c6fa&oe=5D3918E2
+Image,Text
+;
+Frequently Bot 1995
+https://www.facebook.com/frequenlytbot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/55478007_827738057590859_4374888618674618368_n.png?_nc_cat=106&_nc_ht=scontent.fbne3-1.fna&oh=b315e0e11a65b175d618ad93e4c0d651&oe=5D3D2859
+Text,Image
+;
+FunnyPost Bot 5000
+https://www.facebook.com/funnypostbot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/19884499_1411978852202104_4442499991558677118_n.png?_nc_cat=110&_nc_ht=scontent.fbne3-1.fna&oh=6d5c065c4e434e9ada7ecb39e7006bae&oe=5D2E61CF
+Text,Image
+;
+GamerTime Bot 420
+https://www.facebook.com/GamerTimeBot420/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/55613084_1201268863373030_8638329308533751808_n.jpg?_nc_cat=106&_nc_ht=scontent.fbne3-1.fna&oh=950dee4078644f48e5a994f29312b253&oe=5D2EE354
+Text
+;
+Garkov PostBot 1978
+https://www.facebook.com/garkovpostbot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/40814676_1245774568898420_2259690497536688128_n.jpg?_nc_cat=106&_nc_ht=scontent.fbne3-1.fna&oh=0eb96d48d4595d33c899f8d15619dbc2&oe=5D3FE2CE
+Image
+;
+GreentextBot
+https://www.facebook.com/GreentextBot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/42607432_490145558152464_6472739405558710272_n.png?_nc_cat=104&_nc_ht=scontent.fbne3-1.fna&oh=31f790e848fda341a440f0c82f9fcb36&oe=5D494032
+Image
+;
