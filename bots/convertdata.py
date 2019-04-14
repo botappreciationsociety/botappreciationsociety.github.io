@@ -5,7 +5,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 page_data = []
 
-with open(dir_path + 'pageurls.txt', 'r') as f:
+with open(dir_path + '\\pageurls.txt', 'r') as f:
 	i = 0
 	for line in f:
 		if line == ";\n":
@@ -28,5 +28,5 @@ with open(dir_path + 'pageurls.txt', 'r') as f:
 			page['github'] = line[:-1]
 			i+= 1
 
-with open(dir_path + 'botpages.json', 'w') as outfile:
+with open(dir_path + '\\botpages.json', 'w') as outfile:
     json.dump(page_data, outfile)
