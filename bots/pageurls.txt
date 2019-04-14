@@ -198,7 +198,12 @@ https://www.facebook.com/cyanidebot69/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/40432628_680458795653692_5255419161315639296_n.png?_nc_cat=103&_nc_ht=scontent.fbne3-1.fna&oh=66ee9de0490f673c28f84a818762e652&oe=5D4C339C
 Image
 ;
-DadsGo?gleHistoryBot 3000
+D&DBot 1974
+https://www.facebook.com/DDBot1974/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/54202384_590225738054598_5968781562387365888_n.jpg?_nc_cat=100&_nc_ht=scontent.fbne3-1.fna&oh=80fe1d802a353074b84262271e9cedea&oe=5D4D6427
+Image
+;
+DadsGoogleHistoryBot 3000
 https://www.facebook.com/dghb3000/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/32903107_1688750924536403_1325267907856302080_n.png?_nc_cat=105&_nc_ht=scontent.fbne3-1.fna&oh=1a54acf05df9bdf78a515cd2c2df10a9&oe=5D2F0B85
 Image,Dead
@@ -222,6 +227,11 @@ Diseasepostbot 1665
 https://www.facebook.com/167522694156709/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/51996552_241702550072056_3755380250976976896_n.jpg?_nc_cat=103&_nc_ht=scontent.fbne3-1.fna&oh=10a9330b6cb3c31377d8e34cda56b183&oe=5D441E78
 Text,Dead
+;
+Divmeterbot_FG204
+https://www.facebook.com/divmeterbot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56236057_2252231761763536_7816368487583973376_n.png?_nc_cat=104&_nc_ht=scontent.fbne3-1.fna&oh=01948e1ea17f115ea7833008bc8c18da&oe=5D38C113
+Text,Video
 ;
 Doctor Bot
 https://www.facebook.com/botdoctor123/
@@ -304,6 +314,11 @@ https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56954400_657530461369024_2216321
 Text
 https://github.com/guidanoli/fibonaccibot
 ;
+Fighter Bot 420
+https://www.facebook.com/FighterBot420/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/57591524_275095056762852_2719137670474235904_n.png?_nc_cat=102&_nc_ht=scontent.fbne3-1.fna&oh=cbbdfb4f40725b158f0b1b7af20acb9a&oe=5D3395C4
+Image,Text
+;
 Floor-Plan-Bot2521
 https://www.facebook.com/floorplanbot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56398404_285966532297655_1275342284589629440_n.jpg?_nc_cat=100&_nc_ht=scontent.fbne3-1.fna&oh=78ee09dec529cc526d4b0afa2c99c6fa&oe=5D3918E2
@@ -368,6 +383,11 @@ IdeaBot 5200
 https://www.facebook.com/IdeaBot5200/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/51654206_237945313775590_5765671150210252800_n.jpg?_nc_cat=107&_nc_ht=scontent.fbne3-1.fna&oh=ae99b23c2bc83000cf78effce9f9c372&oe=5D321EF2
 Text
+;
+Imageflipbot 5005
+https://www.facebook.com/botot8008/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56268601_1305263779629453_1904338058950475776_n.jpg?_nc_cat=109&_nc_ht=scontent.fbne3-1.fna&oh=35846df66b001828c357a6d55a1e9d71&oe=5D4BE17A
+Image
 ;
 ImagineBot 2070
 https://www.facebook.com/imaginebot2070/
@@ -470,6 +490,16 @@ https://www.facebook.com/MillenialsAreRuiningBots/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/51396402_556728138163162_2588854300021096448_n.jpg?_nc_cat=111&_nc_ht=scontent.fbne3-1.fna&oh=befd50a26d2c21a92d8f2c7bf0fc8ef7&oe=5D37D7B8
 Text
 ;
+MinimapBot 1204
+https://www.facebook.com/minimapbot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56956415_445360612875894_5525707431847395328_n.png?_nc_cat=104&_nc_ht=scontent.fbne3-1.fna&oh=0d114cd603a6193ee112bf8f33d67f12&oe=5D4C1F4B
+Text,Image
+;
+MyHouse WarBot 2020
+https://www.facebook.com/MyHouse.WarBot.2020/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56173189_303753153643603_3742352812009324544_o.jpg?_nc_cat=104&_nc_ht=scontent.fbne3-1.fna&oh=0ed6f896d49af7259bd44865c15a4305&oe=5D4E8F39
+Image,Text
+;
 MusictakesBot 433
 https://www.facebook.com/MusicalTakesBot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/49533950_289271828446924_5327715156103266304_n.jpg?_nc_cat=109&_nc_ht=scontent.fbne3-1.fna&oh=15457f5ed3934fcbb3bc8af5cf2ad4ab&oe=5D3AC9C2
@@ -540,6 +570,11 @@ PokéFusionBot 1996
 https://www.facebook.com/pokefusionbot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/52995445_333681273919046_8864264130404548608_n.png?_nc_cat=110&_nc_ht=scontent.fbne3-1.fna&oh=aec7334183fb09b80f940b1ad20d0c1e&oe=5D29E9A7
 Image,Text
+;
+PokéTeamBot151
+https://www.facebook.com/Pkmnteambot/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/54114804_316957735629946_5721067481049595904_n.png?_nc_cat=102&_nc_ht=scontent.fbne3-1.fna&oh=cbace0e2f2b001321ee9ef08ebe9cbbc&oe=5D3BE533
+Text
 ;
 Polishpostbot
 https://www.facebook.com/Polishpostbot/
@@ -653,6 +688,11 @@ https://www.facebook.com/ShowerthoughtsBot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/54435346_2555251527880991_4808695614244126720_n.png?_nc_cat=107&_nc_ht=scontent.fbne3-1.fna&oh=0f4a5d4a3755b9948036e5eb09352e51&oe=5D2D01F0
 Text,Dead
 ;
+Slotmachine bot 777
+https://www.facebook.com/370461346888311/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/57168310_370461690221610_1845871910395576320_n.jpg?_nc_cat=110&_nc_ht=scontent.fbne3-1.fna&oh=b198aa25bac4ce744c17c1ffda5adf33&oe=5D470BBA
+Text
+;
 SmileyBot 2305
 https://www.facebook.com/sbot2305/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/55752448_353700078593107_3667273210262454272_n.png?_nc_cat=108&_nc_ht=scontent.fbne3-1.fna&oh=3ebed5d89f416cc134e9f51b40340b8e&oe=5D300C4C
@@ -712,6 +752,16 @@ TrackMania Trackpostbot 2004
 https://www.facebook.com/TMXBot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/51927870_250736309173467_1387937334745366528_n.jpg?_nc_cat=111&_nc_ht=scontent.fbne3-1.fna&oh=d2aa5d3a86fe8fc72a88694837070c60&oe=5D3FA257
 Image,Text
+;
+Travel Bot 195
+https://www.facebook.com/279118016339522/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/57009125_279217856329538_8244229191126482944_n.png?_nc_cat=108&_nc_ht=scontent.fbne3-1.fna&oh=adf62586e4a7d022f5fe56a39f6671c2&oe=5D2B47E7
+Text
+;
+Trump Tweet Bot 2024
+https://www.facebook.com/RealBotTrump/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/57240584_1005312489657521_7397119979448958976_n.jpg?_nc_cat=100&_nc_ht=scontent.fbne3-1.fna&oh=f884545a6b2eaa4388da75b4551f959c&oe=5D2DD15F
+Image
 ;
 Two Emoji
 https://www.facebook.com/twoemoji/
