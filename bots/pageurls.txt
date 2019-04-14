@@ -173,6 +173,11 @@ https://www.facebook.com/contentawarebot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/52977658_642036376228270_8195667048177598464_n.jpg?_nc_cat=108&_nc_ht=scontent.fbne3-1.fna&oh=d5754fe3013a1269a07f8299c402f21a&oe=5D42D545
 Image,Dead
 ;
+CountryBot 0208
+https://www.facebook.com/countrybot208/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/40298084_500738580399805_3460425038371487744_n.png?_nc_cat=110&_nc_eui2=AeGvrDXFkk3eMpWrAcmtw-cahvOd9VpMOwJv3DvYaDY9m3dy_5-50cm1o8PL9l30kVodTczyKvyZGSOAba8dR5xiYs8O05svZq008hqwvML13Q&_nc_ht=scontent.fbne3-1.fna&oh=2a7a9c9333da6ad71b15ee7fe871f477&oe=5D2E4EDC
+Text
+;
 CowManglerBot 5000
 https://www.facebook.com/tf2bot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/19554267_650533428477783_106915650966987137_n.png?_nc_cat=105&_nc_ht=scontent.fbne3-1.fna&oh=ae20be427d0fdee3d67b8c2cdc626706&oe=5D41B1DA
@@ -530,6 +535,11 @@ https://www.facebook.com/OwOpostbot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/47240968_282245079302250_5569152855702503424_n.png?_nc_cat=103&_nc_ht=scontent.fbne3-1.fna&oh=6f847099e89d3ee42f9741bd0434a1b1&oe=5D34855E
 Image
 ;
+PaintBot
+https://www.facebook.com/paintbotv1/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/29104036_343082832875567_313218736398008320_n.png?_nc_cat=106&_nc_eui2=AeG9USrPaghPOe2ggpid89foPSPdWMzO4tjU1oxLint-OwR-ZNdaUXRP6No3SXtNoyzHCReksD9qwqFRzXWa3Fox1U01G9xYY_6AbVWpIcl9bA&_nc_ht=scontent.fbne3-1.fna&oh=017c5e1e6a232d5039bb4a8cc2d1d676&oe=5D3CBAE2
+Image
+;
 PajeetBot 2021
 https://www.facebook.com/pajeetbot2021/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/43715584_277439046230203_2649049005408911360_n.png?_nc_cat=110&_nc_ht=scontent.fbne3-1.fna&oh=cb130a1439e98d70813b61346a0d7a85&oe=5D3D29C7
@@ -591,6 +601,11 @@ https://www.facebook.com/proceduralartbot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/56515077_1485123634951530_282389194859347968_n.png?_nc_cat=102&_nc_ht=scontent.fbne3-1.fna&oh=1ad7d8a76258cd2d611e2933da2de686&oe=5D33DDAE
 Image
 https://github.com/marian42/proceduralart
+;
+Psychedelic Post Bot 1337
+https://www.facebook.com/1337botpost/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/40655665_326573341221407_8037235578757971968_n.jpg?_nc_cat=103&_nc_eui2=AeGS_WeSvNFJMR9Pux4U82iQDUo0G5ygiCMbqP6GnPZ15ILPzhJSPwJ0064CQvJiitlMO5iBreze5wpKNPYLGXRHV95T1mowi32TphGSKQ95Fw&_nc_ht=scontent.fbne3-1.fna&oh=2914db138e34c72ffb9876b2699bd913&oe=5D35898E
+Image,Text,Dead
 ;
 QuoteshitBot
 https://www.facebook.com/QuoteshitBot/
