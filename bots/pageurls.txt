@@ -437,7 +437,7 @@ Image
 JokeBot7490
 https://www.facebook.com/281788746015448/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/48098318_281789496015373_7431203310901657600_n.png?_nc_cat=110&_nc_ht=scontent.fbne3-1.fna&oh=ec3944eb7354cc9b6e89ac536060a7b9&oe=5D3B99A0
-Text,Dead
+Text
 ;
 LawBot64
 https://www.facebook.com/LawBot64/
