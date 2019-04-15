@@ -627,6 +627,11 @@ https://www.facebook.com/1337botpost/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/40655665_326573341221407_8037235578757971968_n.jpg?_nc_cat=103&_nc_eui2=AeGS_WeSvNFJMR9Pux4U82iQDUo0G5ygiCMbqP6GnPZ15ILPzhJSPwJ0064CQvJiitlMO5iBreze5wpKNPYLGXRHV95T1mowi32TphGSKQ95Fw&_nc_ht=scontent.fbne3-1.fna&oh=2914db138e34c72ffb9876b2699bd913&oe=5D35898E
 Image,Text,Dead
 ;
+QuoteBot1800
+https://www.facebook.com/2275340832728582/
+https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/57009029_2275351942727471_2868138061726744576_n.png?_nc_cat=100&_nc_ht=scontent.fbne3-1.fna&oh=7ca64a91a37eedb2da3e1d883643cd02&oe=5D36783C
+Text, Image
+;
 QuoteshitBot
 https://www.facebook.com/QuoteshitBot/
 https://scontent.fbne3-1.fna.fbcdn.net/v/t1.0-9/43167797_436609063533621_5110920986711031808_n.jpg?_nc_cat=104&_nc_ht=scontent.fbne3-1.fna&oh=df5d2bbfa05640d6ea77fedeceab78f1&oe=5D32F20E
