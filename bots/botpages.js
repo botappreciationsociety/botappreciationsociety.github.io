@@ -58,7 +58,7 @@ $(document).ready(function(){
                     } else if (tag=="Alive") {
                         badge = '<span class="badge badge-alive" style="margin: 0.062rem;">Alive</span>'
                         botcardlist.splice(11, 0, badge);
-                        botcardlist[0] += " dead-tag"
+                        botcardlist[0] += " alive-tag"
                     };
                 })
                 botcardlist[0] += '">'
