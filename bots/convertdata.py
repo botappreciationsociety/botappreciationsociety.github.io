@@ -1,11 +1,11 @@
 import json
 import os 
 
-dir_path = os.path.dirname(os.path.realpath(__file__))
+curr_dir = os.path.dirname(os.path.realpath(__file__))
 
 page_data = []
 
-with open(dir_path + '\\pageurls.txt', 'r') as f:
+with open(curr_dir + '\\pageurls.txt', 'r') as f:
 	i = 0
 	for line in f:
 		if line == ";\n":
