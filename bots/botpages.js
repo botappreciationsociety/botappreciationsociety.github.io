@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(function(){
         $.getJSON('botpages.json', function(data){
             $.each(data, function(i,page){
-                var botcardlist = ['<div class="container">',
+                var botcardlist = ['<div class="container page-card',
                 '<div class="row">',
                 '<div class="col-12 mt-3">',
                 '<div class="card" style="max-height: 200px;">',
@@ -38,24 +38,39 @@ $(document).ready(function(){
                     if (tag=="Interactive") {
                         badge = '<span class="badge badge-info" style="margin: 0.062rem;">Interactive</span>'
                         botcardlist.splice(11, 0, badge);
+                        botcardlist[0] += " interactive-tag"
                     } else if (tag=="Video") {
                         badge = '<span class="badge badge-warning" style="margin: 0.062rem;">Video</span>'
                         botcardlist.splice(11, 0, badge);
+                        botcardlist[0] += " video-tag"
                     } else if (tag=="Image") {
                         badge = '<span class="badge badge-success" style="margin: 0.062rem;">Image</span>'
                         botcardlist.splice(11, 0, badge);
+                        botcardlist[0] += " image-tag"
                     } else if (tag=="Text") {
                         badge = '<span class="badge badge-dark" style="margin: 0.062rem;">Text</span>'
                         botcardlist.splice(11, 0, badge);
+                        botcardlist[0] += " text-tag"
                     } else if (tag=="Dead") {
                         badge = '<span class="badge badge-danger" style="margin: 0.062rem;">Dead</span>'
                         botcardlist.splice(11, 0, badge);
+                        botcardlist[0] += " dead-tag"
                     };
                 })
+                botcardlist[0] += '">'
                 $('main').append(botcardlist.join("\n"));
             });
         }).error(function(){
             console.log('error');
         });
+    });
+
+    $('#tagselect').change(function() {
+        $('.page-card').hide();
+        if ($(this).val() != "none") {
+            $('.' + $(this).val()).show();
+        } else {
+            $('.page-card').show();
+        };
     });
 });

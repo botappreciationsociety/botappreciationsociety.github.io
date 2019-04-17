@@ -27,7 +27,7 @@ if github != 'n':
 	
 pages.append(new_page)
 
-new_pages = sorted(pages, key=lambda page: page['title'])
+new_pages = sorted(pages, key=lambda page: page['title'].lower())
 
 with open(curr_dir + '\\botpages.json', 'w') as f:
 	json.dump(new_pages, f)
