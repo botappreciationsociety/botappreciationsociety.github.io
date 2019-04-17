@@ -13,35 +13,49 @@
 
     <script src="botpages.js"></script>
 
+    <style>
+      #sps--abv {
+        margin-top: 10px;
+      }
+      #sps--blw {
+        margin-top: 0px;
+      }
+    </style>
+
     <!-- Custom styles for this template -->
     <link href="../shared.css" rel="stylesheet">
 
     <title>The Bot Appreciation Society</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">The Bot Appreciation Society</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <body style="padding-top: 136px;">
+    <div class='fixed-top fluid-container'>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">The Bot Appreciation Society</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../index">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Bots <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Bots <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class='container sps sps--abv' >
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand">Search</a>
+        </nav>
       </div>
-    </nav>
+    </div>
+
 
     <main role="main" class="container">
-
-      <nav class="navbar navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="#">Navbar</a>
-      </nav>
 
     <nav class="navbar bg-light fixed-bottom">
       <span class="navbar-text">
@@ -50,6 +64,8 @@
     </nav>
 
     </main>
+
+  <script src="../scrollPosStyler.js"></script>
 
   </body>
 </html>
