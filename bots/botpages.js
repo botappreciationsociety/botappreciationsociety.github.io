@@ -36,23 +36,27 @@ $(document).ready(function(){
                 var tags = page.tags;
                 $.each(tags, function(j, tag){
                     if (tag=="Interactive") {
-                        badge = '<span class="badge badge-info" style="margin: 0.062rem;">Interactive</span>'
+                        badge = '<span class="badge badge-interactive" style="margin: 0.062rem;">Interactive</span>'
                         botcardlist.splice(11, 0, badge);
                         botcardlist[0] += " interactive-tag"
                     } else if (tag=="Video") {
-                        badge = '<span class="badge badge-warning" style="margin: 0.062rem;">Video</span>'
+                        badge = '<span class="badge badge-video" style="margin: 0.062rem;">Video</span>'
                         botcardlist.splice(11, 0, badge);
                         botcardlist[0] += " video-tag"
                     } else if (tag=="Image") {
-                        badge = '<span class="badge badge-success" style="margin: 0.062rem;">Image</span>'
+                        badge = '<span class="badge badge-image" style="margin: 0.062rem;">Image</span>'
                         botcardlist.splice(11, 0, badge);
                         botcardlist[0] += " image-tag"
                     } else if (tag=="Text") {
-                        badge = '<span class="badge badge-dark" style="margin: 0.062rem;">Text</span>'
+                        badge = '<span class="badge badge-text" style="margin: 0.062rem;">Text</span>'
                         botcardlist.splice(11, 0, badge);
                         botcardlist[0] += " text-tag"
                     } else if (tag=="Dead") {
-                        badge = '<span class="badge badge-danger" style="margin: 0.062rem;">Dead</span>'
+                        badge = '<span class="badge badge-dead" style="margin: 0.062rem;">Dead</span>'
+                        botcardlist.splice(11, 0, badge);
+                        botcardlist[0] += " dead-tag"
+                    } else if (tag=="Alive") {
+                        badge = '<span class="badge badge-alive" style="margin: 0.062rem;">Alive</span>'
                         botcardlist.splice(11, 0, badge);
                         botcardlist[0] += " dead-tag"
                     };

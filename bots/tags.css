@@ -1,0 +1,24 @@
+.badge-alive {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
+.badge-dead {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+.badge-interactive {
+  background-color: #e59a49;
+  color: #ffffff;
+}
+.badge-text {
+  background-color: #5e76d6;
+  color: #ffffff;
+}
+.badge-image {
+  background-color: #825ed6;
+  color: #ffffff;
+}
+.badge-video {
+  background-color: #5eb2d6;
+  color: #ffffff;
+}
