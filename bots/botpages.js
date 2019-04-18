@@ -1,5 +1,13 @@
 $(document).ready(function(){
+
+
+    $.expr[':'].Contains = function(x, y, z){
+        return jQuery(x).text().toUpperCase().indexOf(z[3].toUpperCase())>=0;
+    };
+
+
     $(function(){
+
         $.getJSON('botpages.json', function(data){
             $.each(data, function(i,page){
                 var botcardlist = ['<div class="container page-card',
@@ -62,10 +70,9 @@ $(document).ready(function(){
                     };
                 })
                 botcardlist[0] += '">'
+                $('.loading-bots').hide()
                 $('main').append(botcardlist.join("\n"));
             });
-        }).error(function(){
-            console.log('error');
         });
     });
 
@@ -76,5 +83,55 @@ $(document).ready(function(){
         } else {
             $('.page-card').show();
         };
+    });
+
+    $("#search-button").click(function() {
+      $('.page-card').hide();
+      $('.page-card:Contains(' + $("#bot-search").val() + ')').show();
+      var filterbtns = ["interactive", "alive", "dead", "video", "image", "text"];
+      $.each(filterbtns, function(index, tag){
+        $("#" + tag + "-checkbox").prop('checked', false);
+        $(".btn-tag-" + tag).removeClass("active")
+      });
+    });
+
+    $("#clear-button").click(function() {
+      $('#bot-search').val("")
+      $('.page-card').show();
+      var filterbtns = ["interactive", "alive", "dead", "video", "image", "text"];
+      $.each(filterbtns, function(index, tag){
+        $("#" + tag + "-checkbox").prop('checked', false);
+        $(".btn-tag-" + tag).removeClass("active")
+      });
+    });
+
+    $(".btn-botfilter").click(function() {
+      var tags = ["interactive", "alive", "dead", "video", "image", "text"];
+      var classes = $(this).attr('class').split(/\s+/);
+      var tag_type = classes[2].slice(8);
+      var visible = [];
+      var hidden = [];
+      $.each(tags, function(index, tag){
+        if (!(tag === tag_type)) {
+          if ($("#" + tag + "-checkbox").is(":checked")) {
+            visible.push("." + tag + "-tag");
+          } else {
+            hidden.push("." + tag + "-tag");
+          };
+        } else {
+          if ($("#" + tag + "-checkbox").is(":checked")) {
+            hidden.push("." + tag + "-tag");
+          } else {
+            visible.push("." + tag + "-tag");
+          };
+        }
+      });
+
+      $(".page-card").hide();
+      if (visible.length > 0) {
+        $(visible.join("") + ':Contains(' + $("#bot-search").val() + ')').show();
+      } else {
+        $(".page-card").show();
+      }
     });
 });

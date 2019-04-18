@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="botpages.js"></script>
 
@@ -48,24 +50,44 @@
         </div>
       </nav>
 
-      <div class='container sps sps--abv' >
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand">Search</a>
-          <select id="tagselect">
-            <option value="none">None</option><br />
-            <option value="alive-tag">Alive</option><br />
-            <option value="dead-tag">Dead</option><br />
-            <option value="image-tag">Image</option><br />
-            <option value="text-tag">Text</option><br />
-            <option value="video-tag">Video</option><br />
-            <option value="interactive-tag">Interactive</option><br />
-          </select>
+      <div class='container sps sps--abv'>
+        <nav class="navbar navbar-dark" style="background-color: #e3f2fd; border-radius: 8px;">
+          <div class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" placeholder="Search" id="bot-search">
+            <button class="btn btn-outline-success" id="search-button"><img src="../search.png" style="margin: auto; display: block;" width="20"/></button>
+            <button class="btn btn-outline-danger" id="clear-button" style="margin-left: 5px; display: block;">Clear</button>
+          </div>
+          <div class="btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-botfilter btn-tag-interactive" style="margin-right: 10px;">
+              <input type="checkbox" id="interactive-checkbox" autocomplete="off"> Interactive
+            </label>
+            <label class="btn btn-botfilter btn-tag-alive" style="margin-left: 10px;">
+              <input type="checkbox" id="alive-checkbox" autocomplete="off"> Alive
+            </label>
+            <label class="btn btn-botfilter btn-tag-dead" style="margin-right: 10px;">
+              <input type="checkbox" id="dead-checkbox" autocomplete="off"> Dead
+            </label>
+            <label class="btn btn-botfilter btn-tag-video" style="margin-left: 10px;">
+              <input type="checkbox" id="video-checkbox" autocomplete="off"> Video
+            </label>
+            <label class="btn btn-botfilter btn-tag-image">
+              <input type="checkbox" id="image-checkbox" autocomplete="off"> Image
+            </label>
+            <label class="btn btn-botfilter btn-tag-text">
+              <input type="checkbox" id="text-checkbox" autocomplete="off"> Text
+            </label>
+          </div>
         </nav>
       </div>
     </div>
 
-
     <main role="main" class="container">
+
+      <div class="text-center loading-bots m-5">
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
 
     <nav class="navbar bg-light fixed-bottom">
       <span class="navbar-text">
