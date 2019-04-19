@@ -13,19 +13,26 @@ $(document).ready(function(){
                 var botcardlist = ['<div class="container page-card',
                 '<div class="row">',
                 '<div class="col-12 mt-3">',
-                '<div class="card" style="max-height: 200px;">',
+                '<div class="card">',
                 '<div class="card-horizontal">',
-                '<div class="img-square-wrapper p-1 m-3 border border-primary rounded-circle">',
+                '<div class="img-square-wrapper p-1 m-3 border border-primary rounded-circle d-none d-lg-block">',
                 '<img class="rounded-circle" src="' + page.dp_link + '" style="height: 80px; width: 80px;" alt="Profile picture">',
                 '</div>',
-                '<div class="card-body text-truncate col-8">',
+                '<div class="card-body text-truncate d-none d-lg-block">',
                 '<h3 class="d-inline card-title font-weight-bold" title="' + page.title + '">' + page.title + '</h3>',
                 '<h4 style="margin-top: .375rem;">',
                 '</h4>',
                 '</div>',
-                '<div class="card col-auto" style="margin: 1.225rem; border: none;">',
-                '<div class="card-body">',
-                '<a class="btn btn-primary" href="' + page.fb_link + '" role="button" target="_blank">Facebook</a>',
+                '<div class="card-body col-7 d-block d-lg-none">',
+                '<h3 class="d-inline card-title font-weight-bold" title="' + page.title + '">' + page.title + '</h3>',
+                '<h4 style="margin-top: .375rem;">',
+                '</h4>',
+                '</div>',
+                '<div class="card col-auto align-middle" style="margin: 1.225rem; border: none;">',
+                '<div class="card-body d-none d-lg-inline">',
+                '<a class="btn btn-primary d-none d-lg-inline" href="' + page.fb_link + '" role="button" target="_blank">Facebook</a>',
+                '</div>',
+                '<a href="' + page.fb_link + '"><img src="../fb-logo.png" class="d-inline d-lg-none" style="margin-top: 50%; margin-bottom: 50%;" width="50" target="_blank"></a>',
                 '</div>',
                 '</div>',
                 '</div>',
@@ -36,10 +43,10 @@ $(document).ready(function(){
                 '</div>'];
                 if (page.github === undefined) {
                     gitbutton = '<a class="btn btn-secondary disabled" href="' + page.github + '" role="button" target="_blank">Github</a>';
-                    botcardlist.splice(16, 0, gitbutton)
+                    botcardlist.splice(21, 0, gitbutton)
                 } else {
                     gitbutton = '<a class="btn btn-primary" href="' + page.github + '" role="button" target="_blank">Github</a>';
-                    botcardlist.splice(16, 0, gitbutton)
+                    botcardlist.splice(21, 0, gitbutton)
                     botcardlist[0] += " github-tag"
                 }
                 var tags = page.tags;
