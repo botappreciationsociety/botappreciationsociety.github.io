@@ -73,6 +73,7 @@ $(document).ready(function(){
                 botcardlist[0] += '">'
                 $('.loading-bots').hide()
                 $('main').append(botcardlist.join("\n"));
+                $('.dead-tag').hide();
             });
         });
     });
@@ -104,6 +105,20 @@ $(document).ready(function(){
         $("#" + tag + "-checkbox").prop('checked', false);
         $(".btn-tag-" + tag).removeClass("active")
       });
+    });
+
+    $(".btn-tag-dead").click(function() {
+      if ($("#alive-checkbox").is(":checked")) {
+        $('#alive-checkbox').prop('checked', false);
+        $(".btn-tag-alive").removeClass('active')
+      };
+    });
+
+    $(".btn-tag-alive").click(function() {
+      if ($("#dead-checkbox").is(":checked")) {
+        $('#dead-checkbox').prop('checked', false);
+        $(".btn-tag-dead").removeClass('active')
+      };
     });
 
     $(".btn-botfilter").click(function() {
