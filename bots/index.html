@@ -30,7 +30,7 @@
 
     <title>The Bot Appreciation Society</title>
   </head>
-  <body style="padding-top: 136px;">
+  <body style="padding-top: 150px;">
     <div class='fixed-top fluid-container'>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <a class="navbar-brand" href="#">The Bot Appreciation Society</a>
@@ -50,15 +50,18 @@
         </div>
       </nav>
 
-      <div class='container sps sps--abv'>
-        <nav class="navbar navbar-dark" style="background-color: #e3f2fd; border-radius: 8px;">
+      <div class='fluid-container sps sps--abv'>
+        <nav class="navbar navbar-dark" style="background-color: #efefef; border-radius: 4px;">
           <div class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" placeholder="Search" id="bot-search">
             <button class="btn btn-outline-success" id="search-button"><img src="../search.png" style="margin: auto; display: block;" width="20"/></button>
             <button class="btn btn-outline-danger" id="clear-button" style="margin-left: 5px; display: block;">Clear</button>
           </div>
           <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-botfilter btn-tag-interactive" style="margin-right: 10px;">
+            <label class="btn btn-botfilter btn-tag-github" style="margin-right: 10px;">
+              <input type="checkbox" id="github-checkbox" autocomplete="off"> Github
+            </label>
+            <label class="btn btn-botfilter btn-tag-interactive" style="margin-right: 10px; margin-left: 10px;">
               <input type="checkbox" id="interactive-checkbox" autocomplete="off"> Interactive
             </label>
             <label class="btn btn-botfilter btn-tag-alive" style="margin-left: 10px;">
@@ -82,6 +85,13 @@
     </div>
 
     <main role="main" class="container">
+
+      <div class="alert alert-primary" role="alert">
+        Something wrong with a bot listing? Tag @BLUE on the discord and let them know so they can fix it ASAP.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <img src="../close.png" aria-hidden="true" width="24">
+        </button>
+      </div>
 
       <div class="text-center loading-bots m-5">
         <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">

@@ -35,11 +35,12 @@ $(document).ready(function(){
                 '</div>',
                 '</div>'];
                 if (page.github === undefined) {
-                    gitbutton = '<a class="btn btn-secondary disabled text-muted" href="' + page.github + '" role="button" target="_blank">Github</a>';
+                    gitbutton = '<a class="btn btn-secondary disabled" href="' + page.github + '" role="button" target="_blank">Github</a>';
                     botcardlist.splice(16, 0, gitbutton)
                 } else {
                     gitbutton = '<a class="btn btn-primary" href="' + page.github + '" role="button" target="_blank">Github</a>';
                     botcardlist.splice(16, 0, gitbutton)
+                    botcardlist[0] += " github-tag"
                 }
                 var tags = page.tags;
                 $.each(tags, function(j, tag){
@@ -88,7 +89,7 @@ $(document).ready(function(){
     $("#search-button").click(function() {
       $('.page-card').hide();
       $('.page-card:Contains(' + $("#bot-search").val() + ')').show();
-      var filterbtns = ["interactive", "alive", "dead", "video", "image", "text"];
+      var filterbtns = ["github", "interactive", "alive", "dead", "video", "image", "text"];
       $.each(filterbtns, function(index, tag){
         $("#" + tag + "-checkbox").prop('checked', false);
         $(".btn-tag-" + tag).removeClass("active")
@@ -98,7 +99,7 @@ $(document).ready(function(){
     $("#clear-button").click(function() {
       $('#bot-search').val("")
       $('.page-card').show();
-      var filterbtns = ["interactive", "alive", "dead", "video", "image", "text"];
+      var filterbtns = ["github", "interactive", "alive", "dead", "video", "image", "text"];
       $.each(filterbtns, function(index, tag){
         $("#" + tag + "-checkbox").prop('checked', false);
         $(".btn-tag-" + tag).removeClass("active")
@@ -106,7 +107,7 @@ $(document).ready(function(){
     });
 
     $(".btn-botfilter").click(function() {
-      var tags = ["interactive", "alive", "dead", "video", "image", "text"];
+      var tags = ["github", "interactive", "alive", "dead", "video", "image", "text"];
       var classes = $(this).attr('class').split(/\s+/);
       var tag_type = classes[2].slice(8);
       var visible = [];

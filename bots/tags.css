@@ -154,3 +154,25 @@
   border: #5e76d6;
   box-shadow: none;
 }
+.btn-tag-github {
+  background-color: #9c9c9c;
+  color: #ffffff;
+  border: #9c9c9c;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.btn-tag-github:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  border: #007bff;
+  box-shadow: none !important;
+}
+.btn-tag-github.focus {
+  box-shadow: none !important;
+}
+.btn-tag-github:not(:disabled):not(.disabled).active {
+  background-color: #007bff;
+  color: #ffffff;
+  border: #007bff;
+  box-shadow: none;
+}
