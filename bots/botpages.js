@@ -19,7 +19,7 @@ $(document).ready(function(){
                 '<img class="rounded-circle" src="' + page.dp_link + '" style="height: 80px; width: 80px;" alt="Profile picture">',
                 '</div>',
                 '<div class="card-body text-truncate col-8">',
-                '<h3 class="d-inline card-title font-weight-bold" >' + page.title + '</h3>',
+                '<h3 class="d-inline card-title font-weight-bold" title="' + page.title + '">' + page.title + '</h3>',
                 '<h4 style="margin-top: .375rem;">',
                 '</h4>',
                 '</div>',
