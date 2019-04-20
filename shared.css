@@ -34,3 +34,6 @@ body {
   margin-top: 0px !important;
   transition: margin-top 150ms;
 }
+.hide {
+  display: none !important;
+}
