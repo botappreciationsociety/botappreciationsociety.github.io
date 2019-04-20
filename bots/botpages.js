@@ -43,10 +43,10 @@ $(document).ready(function(){
                  '</div>',
                  '</div>',
                  '<h5 class="card-title">' + page.title + '</h5>',
-                 '<h5 style="margin-top: .125rem;">',
+                 '<h5>',
                  '</h5>',
-                 '<div class="card col-auto align-middle" style="margin: 0.875rem; border: none;">',
-                 '<div class="card-body" style="padding: auto;">',
+                 '<div class="card col-auto align-middle" style="margin: 0.25rem; border: none;">',
+                 '<div class="card-body" style="padding: 0.125rem 15% 0.125rem 15%;">',
                  '<a class="btn btn-primary float-left" href="' + page.fb_link + '" role="button" target="_blank">Facebook</a>',
                  '</div>',
                  '</div>',
@@ -54,11 +54,11 @@ $(document).ready(function(){
                  '</div>'];
 
                 if (page.github === undefined) {
-                    gitbutton = '<a class="btn btn-secondary float-right float-md-none disabled" href="' + page.github + '" role="button" target="_blank">Github</a>';
+                    gitbutton = '<a class="btn btn-secondary float-right float-lg-none disabled" href="' + page.github + '" role="button" target="_blank">Github</a>';
                     botcardlist.splice(16, 0, gitbutton)
                     botcardxslist.splice(13, 0, gitbutton)
                 } else {
-                    gitbutton = '<a class="btn btn-primary float-right float-md-none" href="' + page.github + '" role="button" target="_blank">Github</a>';
+                    gitbutton = '<a class="btn btn-primary float-right float-lg-none" href="' + page.github + '" role="button" target="_blank">Github</a>';
                     botcardlist.splice(16, 0, gitbutton)
                     botcardxslist.splice(13, 0, gitbutton)
                     botcardlist[0] += " github-tag"
