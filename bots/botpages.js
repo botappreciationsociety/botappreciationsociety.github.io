@@ -46,7 +46,7 @@ $(document).ready(function(){
                  '<h5>',
                  '</h5>',
                  '<div class="card col-auto align-middle" style="margin: 0.25rem; border: none;">',
-                 '<div class="card-body" style="padding: 0.125rem 15% 0.125rem 15%;">',
+                 '<div class="card-body" style="padding: 0.125rem 15% 0.1 25rem 15%;">',
                  '<a class="btn btn-primary float-left" href="' + page.fb_link + '" role="button" target="_blank">Facebook</a>',
                  '</div>',
                  '</div>',
