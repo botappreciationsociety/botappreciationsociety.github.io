@@ -22,7 +22,7 @@ for page in pages:
 
 	response = requests.get(dpurl)
 	img = Image.open(BytesIO(response.content))
-	im.thumbnail((80, 80))
+	img.thumbnail((80, 80))
 	img.save("pagedps/{}.png".format(pageid), "PNG")
 
 	print(str(pageid) + " done")
