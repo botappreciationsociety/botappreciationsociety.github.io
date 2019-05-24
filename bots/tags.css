@@ -10,6 +10,10 @@
   background-color: #e59a49;
   color: #ffffff;
 }
+.badge-3d {
+  background-color: #fc55cd;
+  color: #ffffff;
+}
 .badge-video {
   background-color: #5eb2d6;
   color: #ffffff;
@@ -86,6 +90,28 @@
   background-color: #e59a49;
   color: #ffffff;
   border: #e59a49;
+  box-shadow: none;
+}
+.btn-tag-3d {
+  background-color: #9c9c9c;
+  color: #ffffff;
+  border: #9c9c9c;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.btn-tag-3d:hover {
+  background-color: #fc55cd;
+  color: #ffffff;
+  border: #fc55cd;
+  box-shadow: none !important;
+}
+.btn-tag-3d.focus {
+  box-shadow: none !important;
+}
+.btn-tag-3d:not(:disabled):not(.disabled).active {
+  background-color: #fc55cd;
+  color: #ffffff;
+  border: #fc55cd;
   box-shadow: none;
 }
 .btn-tag-video {
