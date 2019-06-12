@@ -21,7 +21,11 @@ for page in pages:
 	new_json.append(new_page_data)
 
 	response = requests.get(dpurl)
-	img = Image.open(BytesIO(response.content))
+	try:
+		img = Image.open(BytesIO(response.content))
+	except:
+		print("Link is dead; check the following page:")
+		print(page["title"])
 	img.thumbnail((80, 80))
 	img.save("pagedps/{}.png".format(pageid), "PNG")
 
