@@ -16,7 +16,7 @@ $(document).ready(function(){
                 '<div class="card">',
                 '<div class="card-horizontal">',
                 '<div class="img-square-wrapper p-1 m-3 border border-primary rounded-circle">',
-                '<img class="rounded-circle" src="' + page.dp_id + '" style="height: 80px; width: 80px;" alt="Profile picture">',
+                '<img class="rounded-circle" src="' + '../pagedps/default.png' + '" style="height: 80px; width: 80px;" alt="Profile picture">',
                 '</div>',
                 '<div class="card-body text-truncate">',
                 '<h3 class="d-inline card-title font-weight-bold" title="' + page.title + '">' + page.title + '</h3>',
